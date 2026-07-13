@@ -1,0 +1,14 @@
+# 가상환경 제외
+.venv/
+venv/
+ENV/
+
+# 파이썬 캐시 파일 제외
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git 및 환경변수 파일 제외 (보안 및 경량화)
+.git/
+.gitignore
